@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f9fa;
+  color: #333;
+}
+header {
+  background: #004d99;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+header h1 {
+  margin: 0;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+header nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+}
+header nav a:hover,
+header nav a:focus,
+header nav a.active {
+  background-color: white;
+  color: #004d99;
+}
+main#main-content {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+}
+#projects-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.project-item {
+  background: white;
+  border: 2px solid #cce0ff;
+  border-radius: 10px;
+  width: 45%;
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
+.project-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.project-item h3 {
+  margin: 10px 0 5px;
+}
+.project-item p {
+  font-size: 0.95em;
+  margin-bottom: 15px;
+}
+.project-item a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #004d99;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.project-item a:hover {
+  background: #003366;
+}
+footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 10px;
+}
+footer a { color: #89CFF0; text-decoration: none; }
